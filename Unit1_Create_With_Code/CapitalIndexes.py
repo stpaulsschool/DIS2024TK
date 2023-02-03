@@ -7,7 +7,7 @@ while x == 1:
         for item, char in enumerate(capital_indexes):
             if char.isupper():
                 mylist.append(item+1)
-        print(mylist)
+        print(f'Here are the numbers of the capital letters: {mylist}')
     else:
         print("Ok, see you soon!")
         x = x + 1
